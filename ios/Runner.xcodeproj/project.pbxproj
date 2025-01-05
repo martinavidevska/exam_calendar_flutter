@@ -26,6 +26,20 @@
 			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
 			remoteInfo = Runner;
 		};
+		34B245EF2D2B37DA0036A0B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B245E42D2B37D90036A0B9 /* GoogleMapsSwiftXCFrameworkDemos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4162E354E88F4EFE2CF145C0;
+			remoteInfo = GoogleMapsSwiftXCFrameworkDemos;
+		};
+		34B245F22D2B37DA0036A0B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B245492D2B37D90036A0B9 /* GoogleMapsXCFrameworkDemos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B0ACFA44D63CA4780F2E268;
+			remoteInfo = GoogleMapsXCFrameworkDemos;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +63,334 @@
 		2A83A46951F6EECD3FEF0E3A /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B2448B2D2B37D90036A0B9 /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMapsBase.xcframework; sourceTree = "<group>"; };
+		34B2448D2D2B37D90036A0B9 /* GMSEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMSEmpty.h; sourceTree = "<group>"; };
+		34B2448F2D2B37D90036A0B9 /* GMSEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMSEmpty.m; sourceTree = "<group>"; };
+		34B244912D2B37D90036A0B9 /* GMSNotCapturingTouchesTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMSNotCapturingTouchesTableView.h; sourceTree = "<group>"; };
+		34B244922D2B37D90036A0B9 /* GMSNotCapturingTouchesTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMSNotCapturingTouchesTableView.m; sourceTree = "<group>"; };
+		34B244932D2B37D90036A0B9 /* UIViewController+GMSModals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GMSModals.h"; sourceTree = "<group>"; };
+		34B244942D2B37D90036A0B9 /* UIViewController+GMSModals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GMSModals.m"; sourceTree = "<group>"; };
+		34B244962D2B37D90036A0B9 /* h1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h1.png; sourceTree = "<group>"; };
+		34B244972D2B37D90036A0B9 /* h1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h1@2x.png"; sourceTree = "<group>"; };
+		34B244982D2B37D90036A0B9 /* spitfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spitfire.png; sourceTree = "<group>"; };
+		34B244992D2B37D90036A0B9 /* spitfire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spitfire@2x.png"; sourceTree = "<group>"; };
+		34B2449A2D2B37D90036A0B9 /* voyager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voyager.png; sourceTree = "<group>"; };
+		34B2449B2D2B37D90036A0B9 /* voyager@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voyager@2x.png"; sourceTree = "<group>"; };
+		34B2449C2D2B37D90036A0B9 /* x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x29.png; sourceTree = "<group>"; };
+		34B2449D2D2B37D90036A0B9 /* x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x29@2x.png"; sourceTree = "<group>"; };
+		34B2449F2D2B37D90036A0B9 /* aeroplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aeroplane.png; sourceTree = "<group>"; };
+		34B244A02D2B37D90036A0B9 /* aeroplane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aeroplane@2x.png"; sourceTree = "<group>"; };
+		34B244A12D2B37D90036A0B9 /* argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = argentina.png; sourceTree = "<group>"; };
+		34B244A22D2B37D90036A0B9 /* argentina-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "argentina-large.png"; sourceTree = "<group>"; };
+		34B244A32D2B37D90036A0B9 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		34B244A42D2B37D90036A0B9 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		34B244A52D2B37D90036A0B9 /* australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australia.png; sourceTree = "<group>"; };
+		34B244A62D2B37D90036A0B9 /* australia-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "australia-large.png"; sourceTree = "<group>"; };
+		34B244A72D2B37D90036A0B9 /* australia-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "australia-large@2x.png"; sourceTree = "<group>"; };
+		34B244A82D2B37D90036A0B9 /* boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat.png; sourceTree = "<group>"; };
+		34B244A92D2B37D90036A0B9 /* boat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boat@2x.png"; sourceTree = "<group>"; };
+		34B244AA2D2B37D90036A0B9 /* botswana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botswana.png; sourceTree = "<group>"; };
+		34B244AB2D2B37D90036A0B9 /* botswana-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botswana-large.png"; sourceTree = "<group>"; };
+		34B244AC2D2B37D90036A0B9 /* bulgaria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulgaria.png; sourceTree = "<group>"; };
+		34B244AD2D2B37D90036A0B9 /* bulgaria-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bulgaria-large.png"; sourceTree = "<group>"; };
+		34B244AE2D2B37D90036A0B9 /* glow-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-marker.png"; sourceTree = "<group>"; };
+		34B244AF2D2B37D90036A0B9 /* glow-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-marker@2x.png"; sourceTree = "<group>"; };
+		34B244B02D2B37D90036A0B9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244B12D2B37D90036A0B9 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244B22D2B37D90036A0B9 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244B32D2B37D90036A0B9 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244B42D2B37D90036A0B9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244B52D2B37D90036A0B9 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244B62D2B37D90036A0B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244B72D2B37D90036A0B9 /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_GB; path = en_GB.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244B82D2B37D90036A0B9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244B92D2B37D90036A0B9 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244BA2D2B37D90036A0B9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244BB2D2B37D90036A0B9 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244BC2D2B37D90036A0B9 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244BD2D2B37D90036A0B9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244BE2D2B37D90036A0B9 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244BF2D2B37D90036A0B9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C02D2B37D90036A0B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C12D2B37D90036A0B9 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C22D2B37D90036A0B9 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C32D2B37D90036A0B9 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C42D2B37D90036A0B9 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C52D2B37D90036A0B9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C62D2B37D90036A0B9 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C72D2B37D90036A0B9 /* pt_PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt_PT; path = pt_PT.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C82D2B37D90036A0B9 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244C92D2B37D90036A0B9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244CA2D2B37D90036A0B9 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244CB2D2B37D90036A0B9 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244CC2D2B37D90036A0B9 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244CD2D2B37D90036A0B9 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244CE2D2B37D90036A0B9 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244CF2D2B37D90036A0B9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244D02D2B37D90036A0B9 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244D12D2B37D90036A0B9 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B244D32D2B37D90036A0B9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34B244D42D2B37D90036A0B9 /* mapstyle-night.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mapstyle-night.json"; sourceTree = "<group>"; };
+		34B244D52D2B37D90036A0B9 /* mapstyle-retro.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mapstyle-retro.json"; sourceTree = "<group>"; };
+		34B244D62D2B37D90036A0B9 /* mapstyle-silver.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mapstyle-silver.json"; sourceTree = "<group>"; };
+		34B244D72D2B37D90036A0B9 /* museum-exhibits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "museum-exhibits.json"; sourceTree = "<group>"; };
+		34B244D82D2B37D90036A0B9 /* newark_nj_1922.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newark_nj_1922.jpg; sourceTree = "<group>"; };
+		34B244D92D2B37D90036A0B9 /* popup_santa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popup_santa.png; sourceTree = "<group>"; };
+		34B244DA2D2B37D90036A0B9 /* popup_santa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_santa@2x.png"; sourceTree = "<group>"; };
+		34B244DB2D2B37D90036A0B9 /* step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.png; sourceTree = "<group>"; };
+		34B244DC2D2B37D90036A0B9 /* step1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step1@2x.png"; sourceTree = "<group>"; };
+		34B244DD2D2B37D90036A0B9 /* step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.png; sourceTree = "<group>"; };
+		34B244DE2D2B37D90036A0B9 /* step2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step2@2x.png"; sourceTree = "<group>"; };
+		34B244DF2D2B37D90036A0B9 /* step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3.png; sourceTree = "<group>"; };
+		34B244E02D2B37D90036A0B9 /* step3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step3@2x.png"; sourceTree = "<group>"; };
+		34B244E12D2B37D90036A0B9 /* step4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step4.png; sourceTree = "<group>"; };
+		34B244E22D2B37D90036A0B9 /* step4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step4@2x.png"; sourceTree = "<group>"; };
+		34B244E32D2B37D90036A0B9 /* step5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step5.png; sourceTree = "<group>"; };
+		34B244E42D2B37D90036A0B9 /* step5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step5@2x.png"; sourceTree = "<group>"; };
+		34B244E52D2B37D90036A0B9 /* step6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step6.png; sourceTree = "<group>"; };
+		34B244E62D2B37D90036A0B9 /* step6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step6@2x.png"; sourceTree = "<group>"; };
+		34B244E72D2B37D90036A0B9 /* step7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step7.png; sourceTree = "<group>"; };
+		34B244E82D2B37D90036A0B9 /* step7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step7@2x.png"; sourceTree = "<group>"; };
+		34B244E92D2B37D90036A0B9 /* step8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step8.png; sourceTree = "<group>"; };
+		34B244EA2D2B37D90036A0B9 /* step8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step8@2x.png"; sourceTree = "<group>"; };
+		34B244EB2D2B37D90036A0B9 /* track.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = track.json; sourceTree = "<group>"; };
+		34B244EC2D2B37D90036A0B9 /* walking_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walking_dot@2x.png"; sourceTree = "<group>"; };
+		34B244ED2D2B37D90036A0B9 /* walking_dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walking_dot@3x.png"; sourceTree = "<group>"; };
+		34B244EF2D2B37D90036A0B9 /* AnimatedCurrentLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedCurrentLocationViewController.h; sourceTree = "<group>"; };
+		34B244F02D2B37D90036A0B9 /* AnimatedCurrentLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedCurrentLocationViewController.m; sourceTree = "<group>"; };
+		34B244F12D2B37D90036A0B9 /* AnimatedUIViewMarkerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedUIViewMarkerViewController.h; sourceTree = "<group>"; };
+		34B244F22D2B37D90036A0B9 /* AnimatedUIViewMarkerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedUIViewMarkerViewController.m; sourceTree = "<group>"; };
+		34B244F32D2B37D90036A0B9 /* BasicMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicMapViewController.h; sourceTree = "<group>"; };
+		34B244F42D2B37D90036A0B9 /* BasicMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicMapViewController.m; sourceTree = "<group>"; };
+		34B244F52D2B37D90036A0B9 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		34B244F62D2B37D90036A0B9 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		34B244F72D2B37D90036A0B9 /* CustomIndoorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomIndoorViewController.h; sourceTree = "<group>"; };
+		34B244F82D2B37D90036A0B9 /* CustomIndoorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomIndoorViewController.m; sourceTree = "<group>"; };
+		34B244F92D2B37D90036A0B9 /* CustomMarkersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMarkersViewController.h; sourceTree = "<group>"; };
+		34B244FA2D2B37D90036A0B9 /* CustomMarkersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMarkersViewController.m; sourceTree = "<group>"; };
+		34B244FB2D2B37D90036A0B9 /* DataDrivenStylingBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataDrivenStylingBasicViewController.h; sourceTree = "<group>"; };
+		34B244FC2D2B37D90036A0B9 /* DataDrivenStylingBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataDrivenStylingBasicViewController.m; sourceTree = "<group>"; };
+		34B244FD2D2B37D90036A0B9 /* DataDrivenStylingEventsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataDrivenStylingEventsViewController.h; sourceTree = "<group>"; };
+		34B244FE2D2B37D90036A0B9 /* DataDrivenStylingEventsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataDrivenStylingEventsViewController.m; sourceTree = "<group>"; };
+		34B244FF2D2B37D90036A0B9 /* DataDrivenStylingSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataDrivenStylingSearchViewController.h; sourceTree = "<group>"; };
+		34B245002D2B37D90036A0B9 /* DataDrivenStylingSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataDrivenStylingSearchViewController.m; sourceTree = "<group>"; };
+		34B245012D2B37D90036A0B9 /* DoubleMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleMapViewController.h; sourceTree = "<group>"; };
+		34B245022D2B37D90036A0B9 /* DoubleMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleMapViewController.m; sourceTree = "<group>"; };
+		34B245032D2B37D90036A0B9 /* FitBoundsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FitBoundsViewController.h; sourceTree = "<group>"; };
+		34B245042D2B37D90036A0B9 /* FitBoundsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitBoundsViewController.m; sourceTree = "<group>"; };
+		34B245052D2B37D90036A0B9 /* FixedPanoramaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixedPanoramaViewController.h; sourceTree = "<group>"; };
+		34B245062D2B37D90036A0B9 /* FixedPanoramaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixedPanoramaViewController.m; sourceTree = "<group>"; };
+		34B245072D2B37D90036A0B9 /* FrameRateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameRateViewController.h; sourceTree = "<group>"; };
+		34B245082D2B37D90036A0B9 /* FrameRateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameRateViewController.m; sourceTree = "<group>"; };
+		34B245092D2B37D90036A0B9 /* GeocoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeocoderViewController.h; sourceTree = "<group>"; };
+		34B2450A2D2B37D90036A0B9 /* GeocoderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeocoderViewController.m; sourceTree = "<group>"; };
+		34B2450B2D2B37D90036A0B9 /* GestureControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureControlViewController.h; sourceTree = "<group>"; };
+		34B2450C2D2B37D90036A0B9 /* GestureControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureControlViewController.m; sourceTree = "<group>"; };
+		34B2450D2D2B37D90036A0B9 /* GradientPolylinesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientPolylinesViewController.h; sourceTree = "<group>"; };
+		34B2450E2D2B37D90036A0B9 /* GradientPolylinesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientPolylinesViewController.m; sourceTree = "<group>"; };
+		34B2450F2D2B37D90036A0B9 /* GroundOverlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroundOverlayViewController.h; sourceTree = "<group>"; };
+		34B245102D2B37D90036A0B9 /* GroundOverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroundOverlayViewController.m; sourceTree = "<group>"; };
+		34B245112D2B37D90036A0B9 /* IndoorMuseumNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndoorMuseumNavigationViewController.h; sourceTree = "<group>"; };
+		34B245122D2B37D90036A0B9 /* IndoorMuseumNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndoorMuseumNavigationViewController.m; sourceTree = "<group>"; };
+		34B245132D2B37D90036A0B9 /* IndoorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndoorViewController.h; sourceTree = "<group>"; };
+		34B245142D2B37D90036A0B9 /* IndoorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndoorViewController.m; sourceTree = "<group>"; };
+		34B245152D2B37D90036A0B9 /* MapLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapLayerViewController.h; sourceTree = "<group>"; };
+		34B245162D2B37D90036A0B9 /* MapLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapLayerViewController.m; sourceTree = "<group>"; };
+		34B245172D2B37D90036A0B9 /* MapTypesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapTypesViewController.h; sourceTree = "<group>"; };
+		34B245182D2B37D90036A0B9 /* MapTypesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTypesViewController.m; sourceTree = "<group>"; };
+		34B245192D2B37D90036A0B9 /* MapZoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapZoomViewController.h; sourceTree = "<group>"; };
+		34B2451A2D2B37D90036A0B9 /* MapZoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapZoomViewController.m; sourceTree = "<group>"; };
+		34B2451B2D2B37D90036A0B9 /* MarkerEventsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkerEventsViewController.h; sourceTree = "<group>"; };
+		34B2451C2D2B37D90036A0B9 /* MarkerEventsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerEventsViewController.m; sourceTree = "<group>"; };
+		34B2451D2D2B37D90036A0B9 /* MarkerInfoWindowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkerInfoWindowViewController.h; sourceTree = "<group>"; };
+		34B2451E2D2B37D90036A0B9 /* MarkerInfoWindowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerInfoWindowViewController.m; sourceTree = "<group>"; };
+		34B2451F2D2B37D90036A0B9 /* MarkerLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkerLayerViewController.h; sourceTree = "<group>"; };
+		34B245202D2B37D90036A0B9 /* MarkerLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerLayerViewController.m; sourceTree = "<group>"; };
+		34B245212D2B37D90036A0B9 /* MarkersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkersViewController.h; sourceTree = "<group>"; };
+		34B245222D2B37D90036A0B9 /* MarkersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkersViewController.m; sourceTree = "<group>"; };
+		34B245232D2B37D90036A0B9 /* MyLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLocationViewController.h; sourceTree = "<group>"; };
+		34B245242D2B37D90036A0B9 /* MyLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLocationViewController.m; sourceTree = "<group>"; };
+		34B245252D2B37D90036A0B9 /* PaddingBehaviorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaddingBehaviorViewController.h; sourceTree = "<group>"; };
+		34B245262D2B37D90036A0B9 /* PaddingBehaviorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaddingBehaviorViewController.m; sourceTree = "<group>"; };
+		34B245272D2B37D90036A0B9 /* PanoramaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanoramaViewController.h; sourceTree = "<group>"; };
+		34B245282D2B37D90036A0B9 /* PanoramaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramaViewController.m; sourceTree = "<group>"; };
+		34B245292D2B37D90036A0B9 /* PolygonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolygonsViewController.h; sourceTree = "<group>"; };
+		34B2452A2D2B37D90036A0B9 /* PolygonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolygonsViewController.m; sourceTree = "<group>"; };
+		34B2452B2D2B37D90036A0B9 /* PolylinesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolylinesViewController.h; sourceTree = "<group>"; };
+		34B2452C2D2B37D90036A0B9 /* PolylinesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolylinesViewController.m; sourceTree = "<group>"; };
+		34B2452D2D2B37D90036A0B9 /* Samples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Samples.h; sourceTree = "<group>"; };
+		34B2452E2D2B37D90036A0B9 /* Samples.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Samples.m; sourceTree = "<group>"; };
+		34B2452F2D2B37D90036A0B9 /* SnapshotReadyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapshotReadyViewController.h; sourceTree = "<group>"; };
+		34B245302D2B37D90036A0B9 /* SnapshotReadyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapshotReadyViewController.m; sourceTree = "<group>"; };
+		34B245312D2B37D90036A0B9 /* StampedPolylinesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StampedPolylinesViewController.h; sourceTree = "<group>"; };
+		34B245322D2B37D90036A0B9 /* StampedPolylinesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StampedPolylinesViewController.m; sourceTree = "<group>"; };
+		34B245332D2B37D90036A0B9 /* StructuredGeocoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StructuredGeocoderViewController.h; sourceTree = "<group>"; };
+		34B245342D2B37D90036A0B9 /* StructuredGeocoderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StructuredGeocoderViewController.m; sourceTree = "<group>"; };
+		34B245352D2B37D90036A0B9 /* StyledMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyledMapViewController.h; sourceTree = "<group>"; };
+		34B245362D2B37D90036A0B9 /* StyledMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StyledMapViewController.m; sourceTree = "<group>"; };
+		34B245372D2B37D90036A0B9 /* TileLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileLayerViewController.h; sourceTree = "<group>"; };
+		34B245382D2B37D90036A0B9 /* TileLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileLayerViewController.m; sourceTree = "<group>"; };
+		34B245392D2B37D90036A0B9 /* TrafficMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafficMapViewController.h; sourceTree = "<group>"; };
+		34B2453A2D2B37D90036A0B9 /* TrafficMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficMapViewController.m; sourceTree = "<group>"; };
+		34B2453B2D2B37D90036A0B9 /* VisibleRegionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisibleRegionViewController.h; sourceTree = "<group>"; };
+		34B2453C2D2B37D90036A0B9 /* VisibleRegionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisibleRegionViewController.m; sourceTree = "<group>"; };
+		34B2453E2D2B37D90036A0B9 /* DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		34B2453F2D2B37D90036A0B9 /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
+		34B245402D2B37D90036A0B9 /* DemoSceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSceneDelegate.h; sourceTree = "<group>"; };
+		34B245412D2B37D90036A0B9 /* DemoSceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSceneDelegate.m; sourceTree = "<group>"; };
+		34B245422D2B37D90036A0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B245432D2B37D90036A0B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34B245442D2B37D90036A0B9 /* MapsDemoAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MapsDemoAssets.xcassets; sourceTree = "<group>"; };
+		34B245452D2B37D90036A0B9 /* SampleListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleListViewController.h; sourceTree = "<group>"; };
+		34B245462D2B37D90036A0B9 /* SampleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleListViewController.m; sourceTree = "<group>"; };
+		34B245472D2B37D90036A0B9 /* SDKDemoAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKDemoAPIKey.h; sourceTree = "<group>"; };
+		34B245492D2B37D90036A0B9 /* GoogleMapsXCFrameworkDemos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GoogleMapsXCFrameworkDemos.xcodeproj; sourceTree = "<group>"; };
+		34B2454A2D2B37D90036A0B9 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		34B2454B2D2B37D90036A0B9 /* README.GoogleMapsDemos */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.GoogleMapsDemos; sourceTree = "<group>"; };
+		34B2454D2D2B37D90036A0B9 /* GoogleMaps.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMaps.xcframework; sourceTree = "<group>"; };
+		34B2454E2D2B37D90036A0B9 /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMapsCore.xcframework; sourceTree = "<group>"; };
+		34B245502D2B37D90036A0B9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		34B245532D2B37D90036A0B9 /* GMSEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMSEmpty.h; sourceTree = "<group>"; };
+		34B245552D2B37D90036A0B9 /* GMSEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMSEmpty.m; sourceTree = "<group>"; };
+		34B245572D2B37D90036A0B9 /* h1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h1.png; sourceTree = "<group>"; };
+		34B245582D2B37D90036A0B9 /* h1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h1@2x.png"; sourceTree = "<group>"; };
+		34B245592D2B37D90036A0B9 /* spitfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spitfire.png; sourceTree = "<group>"; };
+		34B2455A2D2B37D90036A0B9 /* spitfire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spitfire@2x.png"; sourceTree = "<group>"; };
+		34B2455B2D2B37D90036A0B9 /* voyager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voyager.png; sourceTree = "<group>"; };
+		34B2455C2D2B37D90036A0B9 /* voyager@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voyager@2x.png"; sourceTree = "<group>"; };
+		34B2455D2D2B37D90036A0B9 /* x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x29.png; sourceTree = "<group>"; };
+		34B2455E2D2B37D90036A0B9 /* x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x29@2x.png"; sourceTree = "<group>"; };
+		34B245602D2B37D90036A0B9 /* aeroplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aeroplane.png; sourceTree = "<group>"; };
+		34B245612D2B37D90036A0B9 /* aeroplane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aeroplane@2x.png"; sourceTree = "<group>"; };
+		34B245622D2B37D90036A0B9 /* argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = argentina.png; sourceTree = "<group>"; };
+		34B245632D2B37D90036A0B9 /* argentina-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "argentina-large.png"; sourceTree = "<group>"; };
+		34B245642D2B37D90036A0B9 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		34B245652D2B37D90036A0B9 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		34B245662D2B37D90036A0B9 /* australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australia.png; sourceTree = "<group>"; };
+		34B245672D2B37D90036A0B9 /* australia-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "australia-large.png"; sourceTree = "<group>"; };
+		34B245682D2B37D90036A0B9 /* australia-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "australia-large@2x.png"; sourceTree = "<group>"; };
+		34B245692D2B37D90036A0B9 /* boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat.png; sourceTree = "<group>"; };
+		34B2456A2D2B37D90036A0B9 /* boat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boat@2x.png"; sourceTree = "<group>"; };
+		34B2456B2D2B37D90036A0B9 /* botswana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botswana.png; sourceTree = "<group>"; };
+		34B2456C2D2B37D90036A0B9 /* botswana-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botswana-large.png"; sourceTree = "<group>"; };
+		34B2456D2D2B37D90036A0B9 /* bulgaria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulgaria.png; sourceTree = "<group>"; };
+		34B2456E2D2B37D90036A0B9 /* bulgaria-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bulgaria-large.png"; sourceTree = "<group>"; };
+		34B2456F2D2B37D90036A0B9 /* glow-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-marker.png"; sourceTree = "<group>"; };
+		34B245702D2B37D90036A0B9 /* glow-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-marker@2x.png"; sourceTree = "<group>"; };
+		34B245712D2B37D90036A0B9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245722D2B37D90036A0B9 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245732D2B37D90036A0B9 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245742D2B37D90036A0B9 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245752D2B37D90036A0B9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245762D2B37D90036A0B9 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245772D2B37D90036A0B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245782D2B37D90036A0B9 /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_GB; path = en_GB.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245792D2B37D90036A0B9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2457A2D2B37D90036A0B9 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2457B2D2B37D90036A0B9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2457C2D2B37D90036A0B9 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2457D2D2B37D90036A0B9 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2457E2D2B37D90036A0B9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2457F2D2B37D90036A0B9 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245802D2B37D90036A0B9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245812D2B37D90036A0B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245822D2B37D90036A0B9 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245832D2B37D90036A0B9 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245842D2B37D90036A0B9 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245852D2B37D90036A0B9 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245862D2B37D90036A0B9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245872D2B37D90036A0B9 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245882D2B37D90036A0B9 /* pt_PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt_PT; path = pt_PT.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245892D2B37D90036A0B9 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2458A2D2B37D90036A0B9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2458B2D2B37D90036A0B9 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2458C2D2B37D90036A0B9 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2458D2D2B37D90036A0B9 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2458E2D2B37D90036A0B9 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2458F2D2B37D90036A0B9 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245902D2B37D90036A0B9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245912D2B37D90036A0B9 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245922D2B37D90036A0B9 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B245942D2B37D90036A0B9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34B245952D2B37D90036A0B9 /* mapstyle-night.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mapstyle-night.json"; sourceTree = "<group>"; };
+		34B245962D2B37D90036A0B9 /* mapstyle-retro.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mapstyle-retro.json"; sourceTree = "<group>"; };
+		34B245972D2B37D90036A0B9 /* mapstyle-silver.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mapstyle-silver.json"; sourceTree = "<group>"; };
+		34B245982D2B37D90036A0B9 /* museum-exhibits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "museum-exhibits.json"; sourceTree = "<group>"; };
+		34B245992D2B37D90036A0B9 /* newark_nj_1922.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newark_nj_1922.jpg; sourceTree = "<group>"; };
+		34B2459A2D2B37D90036A0B9 /* popup_santa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popup_santa.png; sourceTree = "<group>"; };
+		34B2459B2D2B37D90036A0B9 /* popup_santa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_santa@2x.png"; sourceTree = "<group>"; };
+		34B2459C2D2B37D90036A0B9 /* step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.png; sourceTree = "<group>"; };
+		34B2459D2D2B37D90036A0B9 /* step1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step1@2x.png"; sourceTree = "<group>"; };
+		34B2459E2D2B37D90036A0B9 /* step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.png; sourceTree = "<group>"; };
+		34B2459F2D2B37D90036A0B9 /* step2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step2@2x.png"; sourceTree = "<group>"; };
+		34B245A02D2B37D90036A0B9 /* step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3.png; sourceTree = "<group>"; };
+		34B245A12D2B37D90036A0B9 /* step3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step3@2x.png"; sourceTree = "<group>"; };
+		34B245A22D2B37D90036A0B9 /* step4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step4.png; sourceTree = "<group>"; };
+		34B245A32D2B37D90036A0B9 /* step4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step4@2x.png"; sourceTree = "<group>"; };
+		34B245A42D2B37D90036A0B9 /* step5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step5.png; sourceTree = "<group>"; };
+		34B245A52D2B37D90036A0B9 /* step5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step5@2x.png"; sourceTree = "<group>"; };
+		34B245A62D2B37D90036A0B9 /* step6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step6.png; sourceTree = "<group>"; };
+		34B245A72D2B37D90036A0B9 /* step6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step6@2x.png"; sourceTree = "<group>"; };
+		34B245A82D2B37D90036A0B9 /* step7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step7.png; sourceTree = "<group>"; };
+		34B245A92D2B37D90036A0B9 /* step7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step7@2x.png"; sourceTree = "<group>"; };
+		34B245AA2D2B37D90036A0B9 /* step8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step8.png; sourceTree = "<group>"; };
+		34B245AB2D2B37D90036A0B9 /* step8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step8@2x.png"; sourceTree = "<group>"; };
+		34B245AC2D2B37D90036A0B9 /* track.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = track.json; sourceTree = "<group>"; };
+		34B245AD2D2B37D90036A0B9 /* walking_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walking_dot@2x.png"; sourceTree = "<group>"; };
+		34B245AE2D2B37D90036A0B9 /* walking_dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walking_dot@3x.png"; sourceTree = "<group>"; };
+		34B245B02D2B37D90036A0B9 /* AnimatedCurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCurrentLocationViewController.swift; sourceTree = "<group>"; };
+		34B245B12D2B37D90036A0B9 /* AnimatedUIViewMarkerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedUIViewMarkerViewController.swift; sourceTree = "<group>"; };
+		34B245B22D2B37D90036A0B9 /* BasicMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMapViewController.swift; sourceTree = "<group>"; };
+		34B245B32D2B37D90036A0B9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		34B245B42D2B37D90036A0B9 /* CustomIndoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndoorViewController.swift; sourceTree = "<group>"; };
+		34B245B52D2B37D90036A0B9 /* CustomMarkersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkersViewController.swift; sourceTree = "<group>"; };
+		34B245B62D2B37D90036A0B9 /* DataDrivenStylingBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDrivenStylingBasicViewController.swift; sourceTree = "<group>"; };
+		34B245B72D2B37D90036A0B9 /* DataDrivenStylingEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDrivenStylingEventsViewController.swift; sourceTree = "<group>"; };
+		34B245B82D2B37D90036A0B9 /* DataDrivenStylingSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDrivenStylingSearchViewController.swift; sourceTree = "<group>"; };
+		34B245B92D2B37D90036A0B9 /* DoubleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleMapViewController.swift; sourceTree = "<group>"; };
+		34B245BA2D2B37D90036A0B9 /* FitBoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitBoundsViewController.swift; sourceTree = "<group>"; };
+		34B245BB2D2B37D90036A0B9 /* FixedPanoramaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedPanoramaViewController.swift; sourceTree = "<group>"; };
+		34B245BC2D2B37D90036A0B9 /* FrameRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameRateViewController.swift; sourceTree = "<group>"; };
+		34B245BD2D2B37D90036A0B9 /* GeocoderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocoderViewController.swift; sourceTree = "<group>"; };
+		34B245BE2D2B37D90036A0B9 /* GestureControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureControlViewController.swift; sourceTree = "<group>"; };
+		34B245BF2D2B37D90036A0B9 /* GMSMapStyle+Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSMapStyle+Bundle.swift"; sourceTree = "<group>"; };
+		34B245C02D2B37D90036A0B9 /* GradientPolylinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientPolylinesViewController.swift; sourceTree = "<group>"; };
+		34B245C12D2B37D90036A0B9 /* GroundOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundOverlayViewController.swift; sourceTree = "<group>"; };
+		34B245C22D2B37D90036A0B9 /* IndoorMuseumNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorMuseumNavigationViewController.swift; sourceTree = "<group>"; };
+		34B245C32D2B37D90036A0B9 /* IndoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorViewController.swift; sourceTree = "<group>"; };
+		34B245C42D2B37D90036A0B9 /* MapLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLayerViewController.swift; sourceTree = "<group>"; };
+		34B245C52D2B37D90036A0B9 /* MapTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTypesViewController.swift; sourceTree = "<group>"; };
+		34B245C62D2B37D90036A0B9 /* MapZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapZoomViewController.swift; sourceTree = "<group>"; };
+		34B245C72D2B37D90036A0B9 /* MarkerEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerEventsViewController.swift; sourceTree = "<group>"; };
+		34B245C82D2B37D90036A0B9 /* MarkerInfoWindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerInfoWindowViewController.swift; sourceTree = "<group>"; };
+		34B245C92D2B37D90036A0B9 /* MarkerLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerLayerViewController.swift; sourceTree = "<group>"; };
+		34B245CA2D2B37D90036A0B9 /* MarkersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkersViewController.swift; sourceTree = "<group>"; };
+		34B245CB2D2B37D90036A0B9 /* MyLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationViewController.swift; sourceTree = "<group>"; };
+		34B245CC2D2B37D90036A0B9 /* PaddingBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBehaviorViewController.swift; sourceTree = "<group>"; };
+		34B245CD2D2B37D90036A0B9 /* PanoramaServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramaServiceController.swift; sourceTree = "<group>"; };
+		34B245CE2D2B37D90036A0B9 /* PanoramaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramaViewController.swift; sourceTree = "<group>"; };
+		34B245CF2D2B37D90036A0B9 /* PolygonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonsViewController.swift; sourceTree = "<group>"; };
+		34B245D02D2B37D90036A0B9 /* PolylinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolylinesViewController.swift; sourceTree = "<group>"; };
+		34B245D12D2B37D90036A0B9 /* SampleLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLevel.swift; sourceTree = "<group>"; };
+		34B245D22D2B37D90036A0B9 /* SampleMapStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMapStyle.swift; sourceTree = "<group>"; };
+		34B245D32D2B37D90036A0B9 /* Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samples.swift; sourceTree = "<group>"; };
+		34B245D42D2B37D90036A0B9 /* SnapshotReadyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotReadyViewController.swift; sourceTree = "<group>"; };
+		34B245D52D2B37D90036A0B9 /* StructuredGeocoderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredGeocoderViewController.swift; sourceTree = "<group>"; };
+		34B245D62D2B37D90036A0B9 /* StyledMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledMapViewController.swift; sourceTree = "<group>"; };
+		34B245D72D2B37D90036A0B9 /* TileLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileLayerViewController.swift; sourceTree = "<group>"; };
+		34B245D82D2B37D90036A0B9 /* TrafficMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficMapViewController.swift; sourceTree = "<group>"; };
+		34B245D92D2B37D90036A0B9 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		34B245DA2D2B37D90036A0B9 /* VisibleRegionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibleRegionViewController.swift; sourceTree = "<group>"; };
+		34B245DC2D2B37D90036A0B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34B245DD2D2B37D90036A0B9 /* SampleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListViewController.swift; sourceTree = "<group>"; };
+		34B245DE2D2B37D90036A0B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34B245DF2D2B37D90036A0B9 /* SDKConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKConstants.swift; sourceTree = "<group>"; };
+		34B245E12D2B37D90036A0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B245E22D2B37D90036A0B9 /* MapsDemoAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MapsDemoAssets.xcassets; sourceTree = "<group>"; };
+		34B245E42D2B37D90036A0B9 /* GoogleMapsSwiftXCFrameworkDemos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GoogleMapsSwiftXCFrameworkDemos.xcodeproj; sourceTree = "<group>"; };
+		34B245E52D2B37D90036A0B9 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		34B245E72D2B37D90036A0B9 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		34B245E82D2B37D90036A0B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		7082C5F7BF16848AD4885D90 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		732A96054FD32D1C30011D0B /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +435,451 @@
 				331C807B294A618700263BE5 /* RunnerTests.swift */,
 			);
 			path = RunnerTests;
+			sourceTree = "<group>";
+		};
+		34B2448C2D2B37D90036A0B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34B2448B2D2B37D90036A0B9 /* GoogleMapsBase.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		34B2448E2D2B37D90036A0B9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				34B2448D2D2B37D90036A0B9 /* GMSEmpty.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		34B244902D2B37D90036A0B9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				34B2448C2D2B37D90036A0B9 /* Frameworks */,
+				34B2448E2D2B37D90036A0B9 /* Sources */,
+				34B2448F2D2B37D90036A0B9 /* GMSEmpty.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		34B244952D2B37D90036A0B9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				34B244912D2B37D90036A0B9 /* GMSNotCapturingTouchesTableView.h */,
+				34B244922D2B37D90036A0B9 /* GMSNotCapturingTouchesTableView.m */,
+				34B244932D2B37D90036A0B9 /* UIViewController+GMSModals.h */,
+				34B244942D2B37D90036A0B9 /* UIViewController+GMSModals.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		34B2449E2D2B37D90036A0B9 /* Museum-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				34B244962D2B37D90036A0B9 /* h1.png */,
+				34B244972D2B37D90036A0B9 /* h1@2x.png */,
+				34B244982D2B37D90036A0B9 /* spitfire.png */,
+				34B244992D2B37D90036A0B9 /* spitfire@2x.png */,
+				34B2449A2D2B37D90036A0B9 /* voyager.png */,
+				34B2449B2D2B37D90036A0B9 /* voyager@2x.png */,
+				34B2449C2D2B37D90036A0B9 /* x29.png */,
+				34B2449D2D2B37D90036A0B9 /* x29@2x.png */,
+			);
+			path = "Museum-Icons";
+			sourceTree = "<group>";
+		};
+		34B244EE2D2B37D90036A0B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34B2449E2D2B37D90036A0B9 /* Museum-Icons */,
+				34B2449F2D2B37D90036A0B9 /* aeroplane.png */,
+				34B244A02D2B37D90036A0B9 /* aeroplane@2x.png */,
+				34B244A12D2B37D90036A0B9 /* argentina.png */,
+				34B244A22D2B37D90036A0B9 /* argentina-large.png */,
+				34B244A32D2B37D90036A0B9 /* arrow.png */,
+				34B244A42D2B37D90036A0B9 /* arrow@2x.png */,
+				34B244A52D2B37D90036A0B9 /* australia.png */,
+				34B244A62D2B37D90036A0B9 /* australia-large.png */,
+				34B244A72D2B37D90036A0B9 /* australia-large@2x.png */,
+				34B244A82D2B37D90036A0B9 /* boat.png */,
+				34B244A92D2B37D90036A0B9 /* boat@2x.png */,
+				34B244AA2D2B37D90036A0B9 /* botswana.png */,
+				34B244AB2D2B37D90036A0B9 /* botswana-large.png */,
+				34B244AC2D2B37D90036A0B9 /* bulgaria.png */,
+				34B244AD2D2B37D90036A0B9 /* bulgaria-large.png */,
+				34B244AE2D2B37D90036A0B9 /* glow-marker.png */,
+				34B244AF2D2B37D90036A0B9 /* glow-marker@2x.png */,
+				34B244D22D2B37D90036A0B9 /* InfoPlist.strings */,
+				34B244D32D2B37D90036A0B9 /* LaunchScreen.storyboard */,
+				34B244D42D2B37D90036A0B9 /* mapstyle-night.json */,
+				34B244D52D2B37D90036A0B9 /* mapstyle-retro.json */,
+				34B244D62D2B37D90036A0B9 /* mapstyle-silver.json */,
+				34B244D72D2B37D90036A0B9 /* museum-exhibits.json */,
+				34B244D82D2B37D90036A0B9 /* newark_nj_1922.jpg */,
+				34B244D92D2B37D90036A0B9 /* popup_santa.png */,
+				34B244DA2D2B37D90036A0B9 /* popup_santa@2x.png */,
+				34B244DB2D2B37D90036A0B9 /* step1.png */,
+				34B244DC2D2B37D90036A0B9 /* step1@2x.png */,
+				34B244DD2D2B37D90036A0B9 /* step2.png */,
+				34B244DE2D2B37D90036A0B9 /* step2@2x.png */,
+				34B244DF2D2B37D90036A0B9 /* step3.png */,
+				34B244E02D2B37D90036A0B9 /* step3@2x.png */,
+				34B244E12D2B37D90036A0B9 /* step4.png */,
+				34B244E22D2B37D90036A0B9 /* step4@2x.png */,
+				34B244E32D2B37D90036A0B9 /* step5.png */,
+				34B244E42D2B37D90036A0B9 /* step5@2x.png */,
+				34B244E52D2B37D90036A0B9 /* step6.png */,
+				34B244E62D2B37D90036A0B9 /* step6@2x.png */,
+				34B244E72D2B37D90036A0B9 /* step7.png */,
+				34B244E82D2B37D90036A0B9 /* step7@2x.png */,
+				34B244E92D2B37D90036A0B9 /* step8.png */,
+				34B244EA2D2B37D90036A0B9 /* step8@2x.png */,
+				34B244EB2D2B37D90036A0B9 /* track.json */,
+				34B244EC2D2B37D90036A0B9 /* walking_dot@2x.png */,
+				34B244ED2D2B37D90036A0B9 /* walking_dot@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34B2453D2D2B37D90036A0B9 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				34B244EF2D2B37D90036A0B9 /* AnimatedCurrentLocationViewController.h */,
+				34B244F02D2B37D90036A0B9 /* AnimatedCurrentLocationViewController.m */,
+				34B244F12D2B37D90036A0B9 /* AnimatedUIViewMarkerViewController.h */,
+				34B244F22D2B37D90036A0B9 /* AnimatedUIViewMarkerViewController.m */,
+				34B244F32D2B37D90036A0B9 /* BasicMapViewController.h */,
+				34B244F42D2B37D90036A0B9 /* BasicMapViewController.m */,
+				34B244F52D2B37D90036A0B9 /* CameraViewController.h */,
+				34B244F62D2B37D90036A0B9 /* CameraViewController.m */,
+				34B244F72D2B37D90036A0B9 /* CustomIndoorViewController.h */,
+				34B244F82D2B37D90036A0B9 /* CustomIndoorViewController.m */,
+				34B244F92D2B37D90036A0B9 /* CustomMarkersViewController.h */,
+				34B244FA2D2B37D90036A0B9 /* CustomMarkersViewController.m */,
+				34B244FB2D2B37D90036A0B9 /* DataDrivenStylingBasicViewController.h */,
+				34B244FC2D2B37D90036A0B9 /* DataDrivenStylingBasicViewController.m */,
+				34B244FD2D2B37D90036A0B9 /* DataDrivenStylingEventsViewController.h */,
+				34B244FE2D2B37D90036A0B9 /* DataDrivenStylingEventsViewController.m */,
+				34B244FF2D2B37D90036A0B9 /* DataDrivenStylingSearchViewController.h */,
+				34B245002D2B37D90036A0B9 /* DataDrivenStylingSearchViewController.m */,
+				34B245012D2B37D90036A0B9 /* DoubleMapViewController.h */,
+				34B245022D2B37D90036A0B9 /* DoubleMapViewController.m */,
+				34B245032D2B37D90036A0B9 /* FitBoundsViewController.h */,
+				34B245042D2B37D90036A0B9 /* FitBoundsViewController.m */,
+				34B245052D2B37D90036A0B9 /* FixedPanoramaViewController.h */,
+				34B245062D2B37D90036A0B9 /* FixedPanoramaViewController.m */,
+				34B245072D2B37D90036A0B9 /* FrameRateViewController.h */,
+				34B245082D2B37D90036A0B9 /* FrameRateViewController.m */,
+				34B245092D2B37D90036A0B9 /* GeocoderViewController.h */,
+				34B2450A2D2B37D90036A0B9 /* GeocoderViewController.m */,
+				34B2450B2D2B37D90036A0B9 /* GestureControlViewController.h */,
+				34B2450C2D2B37D90036A0B9 /* GestureControlViewController.m */,
+				34B2450D2D2B37D90036A0B9 /* GradientPolylinesViewController.h */,
+				34B2450E2D2B37D90036A0B9 /* GradientPolylinesViewController.m */,
+				34B2450F2D2B37D90036A0B9 /* GroundOverlayViewController.h */,
+				34B245102D2B37D90036A0B9 /* GroundOverlayViewController.m */,
+				34B245112D2B37D90036A0B9 /* IndoorMuseumNavigationViewController.h */,
+				34B245122D2B37D90036A0B9 /* IndoorMuseumNavigationViewController.m */,
+				34B245132D2B37D90036A0B9 /* IndoorViewController.h */,
+				34B245142D2B37D90036A0B9 /* IndoorViewController.m */,
+				34B245152D2B37D90036A0B9 /* MapLayerViewController.h */,
+				34B245162D2B37D90036A0B9 /* MapLayerViewController.m */,
+				34B245172D2B37D90036A0B9 /* MapTypesViewController.h */,
+				34B245182D2B37D90036A0B9 /* MapTypesViewController.m */,
+				34B245192D2B37D90036A0B9 /* MapZoomViewController.h */,
+				34B2451A2D2B37D90036A0B9 /* MapZoomViewController.m */,
+				34B2451B2D2B37D90036A0B9 /* MarkerEventsViewController.h */,
+				34B2451C2D2B37D90036A0B9 /* MarkerEventsViewController.m */,
+				34B2451D2D2B37D90036A0B9 /* MarkerInfoWindowViewController.h */,
+				34B2451E2D2B37D90036A0B9 /* MarkerInfoWindowViewController.m */,
+				34B2451F2D2B37D90036A0B9 /* MarkerLayerViewController.h */,
+				34B245202D2B37D90036A0B9 /* MarkerLayerViewController.m */,
+				34B245212D2B37D90036A0B9 /* MarkersViewController.h */,
+				34B245222D2B37D90036A0B9 /* MarkersViewController.m */,
+				34B245232D2B37D90036A0B9 /* MyLocationViewController.h */,
+				34B245242D2B37D90036A0B9 /* MyLocationViewController.m */,
+				34B245252D2B37D90036A0B9 /* PaddingBehaviorViewController.h */,
+				34B245262D2B37D90036A0B9 /* PaddingBehaviorViewController.m */,
+				34B245272D2B37D90036A0B9 /* PanoramaViewController.h */,
+				34B245282D2B37D90036A0B9 /* PanoramaViewController.m */,
+				34B245292D2B37D90036A0B9 /* PolygonsViewController.h */,
+				34B2452A2D2B37D90036A0B9 /* PolygonsViewController.m */,
+				34B2452B2D2B37D90036A0B9 /* PolylinesViewController.h */,
+				34B2452C2D2B37D90036A0B9 /* PolylinesViewController.m */,
+				34B2452D2D2B37D90036A0B9 /* Samples.h */,
+				34B2452E2D2B37D90036A0B9 /* Samples.m */,
+				34B2452F2D2B37D90036A0B9 /* SnapshotReadyViewController.h */,
+				34B245302D2B37D90036A0B9 /* SnapshotReadyViewController.m */,
+				34B245312D2B37D90036A0B9 /* StampedPolylinesViewController.h */,
+				34B245322D2B37D90036A0B9 /* StampedPolylinesViewController.m */,
+				34B245332D2B37D90036A0B9 /* StructuredGeocoderViewController.h */,
+				34B245342D2B37D90036A0B9 /* StructuredGeocoderViewController.m */,
+				34B245352D2B37D90036A0B9 /* StyledMapViewController.h */,
+				34B245362D2B37D90036A0B9 /* StyledMapViewController.m */,
+				34B245372D2B37D90036A0B9 /* TileLayerViewController.h */,
+				34B245382D2B37D90036A0B9 /* TileLayerViewController.m */,
+				34B245392D2B37D90036A0B9 /* TrafficMapViewController.h */,
+				34B2453A2D2B37D90036A0B9 /* TrafficMapViewController.m */,
+				34B2453B2D2B37D90036A0B9 /* VisibleRegionViewController.h */,
+				34B2453C2D2B37D90036A0B9 /* VisibleRegionViewController.m */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		34B245482D2B37D90036A0B9 /* GoogleMapsXCFrameworkDemos */ = {
+			isa = PBXGroup;
+			children = (
+				34B244952D2B37D90036A0B9 /* Common */,
+				34B244EE2D2B37D90036A0B9 /* Resources */,
+				34B2453D2D2B37D90036A0B9 /* Samples */,
+				34B2453E2D2B37D90036A0B9 /* DemoAppDelegate.h */,
+				34B2453F2D2B37D90036A0B9 /* DemoAppDelegate.m */,
+				34B245402D2B37D90036A0B9 /* DemoSceneDelegate.h */,
+				34B245412D2B37D90036A0B9 /* DemoSceneDelegate.m */,
+				34B245422D2B37D90036A0B9 /* Info.plist */,
+				34B245432D2B37D90036A0B9 /* main.m */,
+				34B245442D2B37D90036A0B9 /* MapsDemoAssets.xcassets */,
+				34B245452D2B37D90036A0B9 /* SampleListViewController.h */,
+				34B245462D2B37D90036A0B9 /* SampleListViewController.m */,
+				34B245472D2B37D90036A0B9 /* SDKDemoAPIKey.h */,
+			);
+			path = GoogleMapsXCFrameworkDemos;
+			sourceTree = "<group>";
+		};
+		34B2454C2D2B37D90036A0B9 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				34B245482D2B37D90036A0B9 /* GoogleMapsXCFrameworkDemos */,
+				34B245492D2B37D90036A0B9 /* GoogleMapsXCFrameworkDemos.xcodeproj */,
+				34B2454A2D2B37D90036A0B9 /* Podfile */,
+				34B2454B2D2B37D90036A0B9 /* README.GoogleMapsDemos */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		34B2454F2D2B37D90036A0B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34B2454D2D2B37D90036A0B9 /* GoogleMaps.xcframework */,
+				34B2454E2D2B37D90036A0B9 /* GoogleMapsCore.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		34B245512D2B37D90036A0B9 /* GoogleMapsResources */ = {
+			isa = PBXGroup;
+			children = (
+				34B245502D2B37D90036A0B9 /* GoogleMaps.bundle */,
+			);
+			path = GoogleMapsResources;
+			sourceTree = "<group>";
+		};
+		34B245522D2B37D90036A0B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34B245512D2B37D90036A0B9 /* GoogleMapsResources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34B245542D2B37D90036A0B9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				34B245532D2B37D90036A0B9 /* GMSEmpty.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		34B245562D2B37D90036A0B9 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				34B2454F2D2B37D90036A0B9 /* Frameworks */,
+				34B245522D2B37D90036A0B9 /* Resources */,
+				34B245542D2B37D90036A0B9 /* Sources */,
+				34B245552D2B37D90036A0B9 /* GMSEmpty.m */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		34B2455F2D2B37D90036A0B9 /* Museum-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				34B245572D2B37D90036A0B9 /* h1.png */,
+				34B245582D2B37D90036A0B9 /* h1@2x.png */,
+				34B245592D2B37D90036A0B9 /* spitfire.png */,
+				34B2455A2D2B37D90036A0B9 /* spitfire@2x.png */,
+				34B2455B2D2B37D90036A0B9 /* voyager.png */,
+				34B2455C2D2B37D90036A0B9 /* voyager@2x.png */,
+				34B2455D2D2B37D90036A0B9 /* x29.png */,
+				34B2455E2D2B37D90036A0B9 /* x29@2x.png */,
+			);
+			path = "Museum-Icons";
+			sourceTree = "<group>";
+		};
+		34B245AF2D2B37D90036A0B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34B2455F2D2B37D90036A0B9 /* Museum-Icons */,
+				34B245602D2B37D90036A0B9 /* aeroplane.png */,
+				34B245612D2B37D90036A0B9 /* aeroplane@2x.png */,
+				34B245622D2B37D90036A0B9 /* argentina.png */,
+				34B245632D2B37D90036A0B9 /* argentina-large.png */,
+				34B245642D2B37D90036A0B9 /* arrow.png */,
+				34B245652D2B37D90036A0B9 /* arrow@2x.png */,
+				34B245662D2B37D90036A0B9 /* australia.png */,
+				34B245672D2B37D90036A0B9 /* australia-large.png */,
+				34B245682D2B37D90036A0B9 /* australia-large@2x.png */,
+				34B245692D2B37D90036A0B9 /* boat.png */,
+				34B2456A2D2B37D90036A0B9 /* boat@2x.png */,
+				34B2456B2D2B37D90036A0B9 /* botswana.png */,
+				34B2456C2D2B37D90036A0B9 /* botswana-large.png */,
+				34B2456D2D2B37D90036A0B9 /* bulgaria.png */,
+				34B2456E2D2B37D90036A0B9 /* bulgaria-large.png */,
+				34B2456F2D2B37D90036A0B9 /* glow-marker.png */,
+				34B245702D2B37D90036A0B9 /* glow-marker@2x.png */,
+				34B245932D2B37D90036A0B9 /* InfoPlist.strings */,
+				34B245942D2B37D90036A0B9 /* LaunchScreen.storyboard */,
+				34B245952D2B37D90036A0B9 /* mapstyle-night.json */,
+				34B245962D2B37D90036A0B9 /* mapstyle-retro.json */,
+				34B245972D2B37D90036A0B9 /* mapstyle-silver.json */,
+				34B245982D2B37D90036A0B9 /* museum-exhibits.json */,
+				34B245992D2B37D90036A0B9 /* newark_nj_1922.jpg */,
+				34B2459A2D2B37D90036A0B9 /* popup_santa.png */,
+				34B2459B2D2B37D90036A0B9 /* popup_santa@2x.png */,
+				34B2459C2D2B37D90036A0B9 /* step1.png */,
+				34B2459D2D2B37D90036A0B9 /* step1@2x.png */,
+				34B2459E2D2B37D90036A0B9 /* step2.png */,
+				34B2459F2D2B37D90036A0B9 /* step2@2x.png */,
+				34B245A02D2B37D90036A0B9 /* step3.png */,
+				34B245A12D2B37D90036A0B9 /* step3@2x.png */,
+				34B245A22D2B37D90036A0B9 /* step4.png */,
+				34B245A32D2B37D90036A0B9 /* step4@2x.png */,
+				34B245A42D2B37D90036A0B9 /* step5.png */,
+				34B245A52D2B37D90036A0B9 /* step5@2x.png */,
+				34B245A62D2B37D90036A0B9 /* step6.png */,
+				34B245A72D2B37D90036A0B9 /* step6@2x.png */,
+				34B245A82D2B37D90036A0B9 /* step7.png */,
+				34B245A92D2B37D90036A0B9 /* step7@2x.png */,
+				34B245AA2D2B37D90036A0B9 /* step8.png */,
+				34B245AB2D2B37D90036A0B9 /* step8@2x.png */,
+				34B245AC2D2B37D90036A0B9 /* track.json */,
+				34B245AD2D2B37D90036A0B9 /* walking_dot@2x.png */,
+				34B245AE2D2B37D90036A0B9 /* walking_dot@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34B245DB2D2B37D90036A0B9 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				34B245B02D2B37D90036A0B9 /* AnimatedCurrentLocationViewController.swift */,
+				34B245B12D2B37D90036A0B9 /* AnimatedUIViewMarkerViewController.swift */,
+				34B245B22D2B37D90036A0B9 /* BasicMapViewController.swift */,
+				34B245B32D2B37D90036A0B9 /* CameraViewController.swift */,
+				34B245B42D2B37D90036A0B9 /* CustomIndoorViewController.swift */,
+				34B245B52D2B37D90036A0B9 /* CustomMarkersViewController.swift */,
+				34B245B62D2B37D90036A0B9 /* DataDrivenStylingBasicViewController.swift */,
+				34B245B72D2B37D90036A0B9 /* DataDrivenStylingEventsViewController.swift */,
+				34B245B82D2B37D90036A0B9 /* DataDrivenStylingSearchViewController.swift */,
+				34B245B92D2B37D90036A0B9 /* DoubleMapViewController.swift */,
+				34B245BA2D2B37D90036A0B9 /* FitBoundsViewController.swift */,
+				34B245BB2D2B37D90036A0B9 /* FixedPanoramaViewController.swift */,
+				34B245BC2D2B37D90036A0B9 /* FrameRateViewController.swift */,
+				34B245BD2D2B37D90036A0B9 /* GeocoderViewController.swift */,
+				34B245BE2D2B37D90036A0B9 /* GestureControlViewController.swift */,
+				34B245BF2D2B37D90036A0B9 /* GMSMapStyle+Bundle.swift */,
+				34B245C02D2B37D90036A0B9 /* GradientPolylinesViewController.swift */,
+				34B245C12D2B37D90036A0B9 /* GroundOverlayViewController.swift */,
+				34B245C22D2B37D90036A0B9 /* IndoorMuseumNavigationViewController.swift */,
+				34B245C32D2B37D90036A0B9 /* IndoorViewController.swift */,
+				34B245C42D2B37D90036A0B9 /* MapLayerViewController.swift */,
+				34B245C52D2B37D90036A0B9 /* MapTypesViewController.swift */,
+				34B245C62D2B37D90036A0B9 /* MapZoomViewController.swift */,
+				34B245C72D2B37D90036A0B9 /* MarkerEventsViewController.swift */,
+				34B245C82D2B37D90036A0B9 /* MarkerInfoWindowViewController.swift */,
+				34B245C92D2B37D90036A0B9 /* MarkerLayerViewController.swift */,
+				34B245CA2D2B37D90036A0B9 /* MarkersViewController.swift */,
+				34B245CB2D2B37D90036A0B9 /* MyLocationViewController.swift */,
+				34B245CC2D2B37D90036A0B9 /* PaddingBehaviorViewController.swift */,
+				34B245CD2D2B37D90036A0B9 /* PanoramaServiceController.swift */,
+				34B245CE2D2B37D90036A0B9 /* PanoramaViewController.swift */,
+				34B245CF2D2B37D90036A0B9 /* PolygonsViewController.swift */,
+				34B245D02D2B37D90036A0B9 /* PolylinesViewController.swift */,
+				34B245D12D2B37D90036A0B9 /* SampleLevel.swift */,
+				34B245D22D2B37D90036A0B9 /* SampleMapStyle.swift */,
+				34B245D32D2B37D90036A0B9 /* Samples.swift */,
+				34B245D42D2B37D90036A0B9 /* SnapshotReadyViewController.swift */,
+				34B245D52D2B37D90036A0B9 /* StructuredGeocoderViewController.swift */,
+				34B245D62D2B37D90036A0B9 /* StyledMapViewController.swift */,
+				34B245D72D2B37D90036A0B9 /* TileLayerViewController.swift */,
+				34B245D82D2B37D90036A0B9 /* TrafficMapViewController.swift */,
+				34B245D92D2B37D90036A0B9 /* UIViewController+Extensions.swift */,
+				34B245DA2D2B37D90036A0B9 /* VisibleRegionViewController.swift */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		34B245E02D2B37D90036A0B9 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				34B245DB2D2B37D90036A0B9 /* Samples */,
+				34B245DC2D2B37D90036A0B9 /* AppDelegate.swift */,
+				34B245DD2D2B37D90036A0B9 /* SampleListViewController.swift */,
+				34B245DE2D2B37D90036A0B9 /* SceneDelegate.swift */,
+				34B245DF2D2B37D90036A0B9 /* SDKConstants.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		34B245E32D2B37D90036A0B9 /* GoogleMapsSwiftXCFrameworkDemos */ = {
+			isa = PBXGroup;
+			children = (
+				34B245AF2D2B37D90036A0B9 /* Resources */,
+				34B245E02D2B37D90036A0B9 /* Swift */,
+				34B245E12D2B37D90036A0B9 /* Info.plist */,
+				34B245E22D2B37D90036A0B9 /* MapsDemoAssets.xcassets */,
+			);
+			path = GoogleMapsSwiftXCFrameworkDemos;
+			sourceTree = "<group>";
+		};
+		34B245E62D2B37D90036A0B9 /* SwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				34B245E32D2B37D90036A0B9 /* GoogleMapsSwiftXCFrameworkDemos */,
+				34B245E42D2B37D90036A0B9 /* GoogleMapsSwiftXCFrameworkDemos.xcodeproj */,
+				34B245E52D2B37D90036A0B9 /* Podfile */,
+			);
+			path = SwiftExample;
+			sourceTree = "<group>";
+		};
+		34B245E92D2B37D90036A0B9 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				34B244902D2B37D90036A0B9 /* Base */,
+				34B2454C2D2B37D90036A0B9 /* Example */,
+				34B245562D2B37D90036A0B9 /* Maps */,
+				34B245E62D2B37D90036A0B9 /* SwiftExample */,
+				34B245E72D2B37D90036A0B9 /* CHANGELOG.md */,
+				34B245E82D2B37D90036A0B9 /* README.md */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		34B245EA2D2B37D90036A0B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B245F02D2B37DA0036A0B9 /* GoogleMapsSwiftXCFrameworkDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B245EC2D2B37D90036A0B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B245F32D2B37DA0036A0B9 /* GoogleMapsXCFrameworkDemos.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		836785B47701AC00D6BE30F5 /* Frameworks */ = {
@@ -160,8 +947,8 @@
 				732A96054FD32D1C30011D0B /* Pods-RunnerTests.debug.xcconfig */,
 				EBD7A7D932E25335D90C5199 /* Pods-RunnerTests.release.xcconfig */,
 				2A83A46951F6EECD3FEF0E3A /* Pods-RunnerTests.profile.xcconfig */,
+				34B245E92D2B37D90036A0B9 /* GoogleMaps */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -237,10 +1024,53 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				he,
+				ar,
+				el,
+				ja,
+				uk,
+				zh_CN,
+				nb,
+				es,
+				da,
+				it,
+				sk,
+				pt_PT,
+				ms,
+				sv,
+				cs,
+				ko,
+				hu,
+				tr,
+				pl,
+				zh_TW,
+				en_GB,
+				vi,
+				ru,
+				fr,
+				fi,
+				id,
+				nl,
+				th,
+				pt,
+				ro,
+				hr,
+				ca,
 			);
 			mainGroup = 97C146E51CF9000F007C117D;
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 34B245EA2D2B37D90036A0B9 /* Products */;
+					ProjectRef = 34B245E42D2B37D90036A0B9 /* GoogleMapsSwiftXCFrameworkDemos.xcodeproj */;
+				},
+				{
+					ProductGroup = 34B245EC2D2B37D90036A0B9 /* Products */;
+					ProjectRef = 34B245492D2B37D90036A0B9 /* GoogleMapsXCFrameworkDemos.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
@@ -248,6 +1078,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		34B245F02D2B37DA0036A0B9 /* GoogleMapsSwiftXCFrameworkDemos.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GoogleMapsSwiftXCFrameworkDemos.app;
+			remoteRef = 34B245EF2D2B37DA0036A0B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		34B245F32D2B37DA0036A0B9 /* GoogleMapsXCFrameworkDemos.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GoogleMapsXCFrameworkDemos.app;
+			remoteRef = 34B245F22D2B37DA0036A0B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		331C807F294A63A400263BE5 /* Resources */ = {
@@ -411,6 +1258,88 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		34B244D22D2B37D90036A0B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B244B02D2B37D90036A0B9 /* ar */,
+				34B244B12D2B37D90036A0B9 /* ca */,
+				34B244B22D2B37D90036A0B9 /* cs */,
+				34B244B32D2B37D90036A0B9 /* da */,
+				34B244B42D2B37D90036A0B9 /* de */,
+				34B244B52D2B37D90036A0B9 /* el */,
+				34B244B62D2B37D90036A0B9 /* en */,
+				34B244B72D2B37D90036A0B9 /* en_GB */,
+				34B244B82D2B37D90036A0B9 /* es */,
+				34B244B92D2B37D90036A0B9 /* fi */,
+				34B244BA2D2B37D90036A0B9 /* fr */,
+				34B244BB2D2B37D90036A0B9 /* he */,
+				34B244BC2D2B37D90036A0B9 /* hr */,
+				34B244BD2D2B37D90036A0B9 /* hu */,
+				34B244BE2D2B37D90036A0B9 /* id */,
+				34B244BF2D2B37D90036A0B9 /* it */,
+				34B244C02D2B37D90036A0B9 /* ja */,
+				34B244C12D2B37D90036A0B9 /* ko */,
+				34B244C22D2B37D90036A0B9 /* ms */,
+				34B244C32D2B37D90036A0B9 /* nb */,
+				34B244C42D2B37D90036A0B9 /* nl */,
+				34B244C52D2B37D90036A0B9 /* pl */,
+				34B244C62D2B37D90036A0B9 /* pt */,
+				34B244C72D2B37D90036A0B9 /* pt_PT */,
+				34B244C82D2B37D90036A0B9 /* ro */,
+				34B244C92D2B37D90036A0B9 /* ru */,
+				34B244CA2D2B37D90036A0B9 /* sk */,
+				34B244CB2D2B37D90036A0B9 /* sv */,
+				34B244CC2D2B37D90036A0B9 /* th */,
+				34B244CD2D2B37D90036A0B9 /* tr */,
+				34B244CE2D2B37D90036A0B9 /* uk */,
+				34B244CF2D2B37D90036A0B9 /* vi */,
+				34B244D02D2B37D90036A0B9 /* zh_CN */,
+				34B244D12D2B37D90036A0B9 /* zh_TW */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34B245932D2B37D90036A0B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B245712D2B37D90036A0B9 /* ar */,
+				34B245722D2B37D90036A0B9 /* ca */,
+				34B245732D2B37D90036A0B9 /* cs */,
+				34B245742D2B37D90036A0B9 /* da */,
+				34B245752D2B37D90036A0B9 /* de */,
+				34B245762D2B37D90036A0B9 /* el */,
+				34B245772D2B37D90036A0B9 /* en */,
+				34B245782D2B37D90036A0B9 /* en_GB */,
+				34B245792D2B37D90036A0B9 /* es */,
+				34B2457A2D2B37D90036A0B9 /* fi */,
+				34B2457B2D2B37D90036A0B9 /* fr */,
+				34B2457C2D2B37D90036A0B9 /* he */,
+				34B2457D2D2B37D90036A0B9 /* hr */,
+				34B2457E2D2B37D90036A0B9 /* hu */,
+				34B2457F2D2B37D90036A0B9 /* id */,
+				34B245802D2B37D90036A0B9 /* it */,
+				34B245812D2B37D90036A0B9 /* ja */,
+				34B245822D2B37D90036A0B9 /* ko */,
+				34B245832D2B37D90036A0B9 /* ms */,
+				34B245842D2B37D90036A0B9 /* nb */,
+				34B245852D2B37D90036A0B9 /* nl */,
+				34B245862D2B37D90036A0B9 /* pl */,
+				34B245872D2B37D90036A0B9 /* pt */,
+				34B245882D2B37D90036A0B9 /* pt_PT */,
+				34B245892D2B37D90036A0B9 /* ro */,
+				34B2458A2D2B37D90036A0B9 /* ru */,
+				34B2458B2D2B37D90036A0B9 /* sk */,
+				34B2458C2D2B37D90036A0B9 /* sv */,
+				34B2458D2D2B37D90036A0B9 /* th */,
+				34B2458E2D2B37D90036A0B9 /* tr */,
+				34B2458F2D2B37D90036A0B9 /* uk */,
+				34B245902D2B37D90036A0B9 /* vi */,
+				34B245912D2B37D90036A0B9 /* zh_CN */,
+				34B245922D2B37D90036A0B9 /* zh_TW */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

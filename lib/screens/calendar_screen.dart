@@ -2,8 +2,6 @@ import 'package:exam_calendar_flutter/models/exam.dart';
 import 'package:exam_calendar_flutter/screens/add_event_form_sreen.dart';
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:location/location.dart';
 import 'map_screen.dart';
 
 class CalendarScreen extends StatefulWidget {
@@ -70,16 +68,11 @@ class _CalendarScreenState extends State<CalendarScreen> {
           ),
           ElevatedButton(
             onPressed: () async {
-              final location = await Location().getLocation();
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => MapScreen(
-                    events: _events,
-                    currentLocation:
-                        LatLng(location.latitude!, location.longitude!),
-                  ),
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => MapScreen(
+                  event: _events,
                 ),
-              );
+              ));
             },
             child: Text('View Events on Map'),
           ),
